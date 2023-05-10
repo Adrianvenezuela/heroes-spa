@@ -7,16 +7,6 @@ export const Navbar = () => {
         Asociaciones
       </Link>
 
-<<<<<<< HEAD
-      <div className="navbar-collapse">
-        <div className="navbar-nav">
-          <NavLink
-            className={({ isActive }) =>
-              `nav-item nav-link ${isActive ? "active" : ""}`
-            }
-            to="/marvel"
-          >
-=======
       <div className='navbar-collapse'>
         <div className='navbar-nav'>
           <NavLink
@@ -24,26 +14,11 @@ export const Navbar = () => {
               `nav-item nav-link ${isActive ? 'active' : ''}`
             }
             to='/marvel'>
->>>>>>> d1a4729c24c6f83f975e2f59726ce85032e22d0a
             Marvel
           </NavLink>
 
           <NavLink
             className={({ isActive }) =>
-<<<<<<< HEAD
-              `nav-item nav-link ${isActive ? "active" : ""}`
-            }
-            to="/marvel"
-          ></NavLink>
-        </div>
-      </div>
-
-      <div className="navbar-collapse collapse w-100 order-3 dual-collapse2 d-flex justify-content-end">
-        <ul className="navbar-nav ml-auto">
-          <span className="nav-item nav-link text-primary">Adrian</span>
-
-          <button className="nav-item nav-link btn">logout</button>
-=======
               `nav-item nav-link ${isActive ? 'active' : ''}`
             }
             to='/marvel'>
@@ -57,7 +32,6 @@ export const Navbar = () => {
           <span className='nav-item nav-link text-primary'>Adrian</span>
 
           <button className='nav-item nav-link btn'>logout</button>
->>>>>>> d1a4729c24c6f83f975e2f59726ce85032e22d0a
         </ul>
       </div>
     </nav>
