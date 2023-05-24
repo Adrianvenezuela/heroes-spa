@@ -1,4 +1,4 @@
-import {} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const CharactersByHero = ({ alter_ego, Characters }) => {
   // if (alter_ego === characters) return <></>;
@@ -14,7 +14,7 @@ export const HeroCard = ({
   first_appearance,
   Characters,
 }) => {
-  const heroImageUrl = `/assets/heroes/${id}.jpg`;
+  const heroImageUrl = `./assets/heroes/${id}.jpg`;
 
   return (
     <div className="col">
@@ -38,7 +38,7 @@ export const HeroCard = ({
               <small className="text-muted">{first_appearance}</small>
             </p>
 
-            <link to={`/hero/${id}`}>Más..</link>
+            <Link to={`/hero/${id}`}>Más..</Link>
           </div>
         </div>
       </div>
